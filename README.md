@@ -159,6 +159,20 @@ The project generates multiple visualizations and business reports, including:
 - Deploy the project using Streamlit
 
 ---
+## 🚀 Future Improvements
+
+### Short-Term Goals
+- Add more business insights.
+- Improve visualizations.
+- Optimize the analysis code.
+
+### Long-Term Goals
+- Build an interactive Streamlit dashboard.
+- Develop a pizza sales prediction model.
+- Deploy the project as a web application.
+- Connect the project to a real-time database.
+  
+---
 
 👩‍💻 Author
 
