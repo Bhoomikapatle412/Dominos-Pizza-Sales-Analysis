@@ -1,186 +1,167 @@
- 🍕 Domino's Pizza Sales Analysis
-
-An end-to-end **Data Analytics** project built using **Python**, **Pandas**, **NumPy**, **Matplotlib**, and **Seaborn** to analyze Domino's pizza sales data. This project focuses on data cleaning, preprocessing, exploratory data analysis (EDA), visualization, and extracting business insights from real-world sales data.
-
+🍕 Domino's Pizza Sales Analysis
 
 📌 Project Overview
 
-The objective of this project is to analyze Domino's pizza sales data to identify customer preferences, sales trends, and revenue patterns. The project demonstrates the complete data analysis workflow, from raw datasets to actionable business insights.
+This project analyzes Domino's Pizza sales data using Python to uncover valuable business insights through data cleaning, exploratory data analysis (EDA), and data visualization. The objective is to identify sales trends, customer purchasing patterns, and product performance to support data-driven business decisions.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🎯 Objectives
 
-- Acquire and preprocess sales data
-- Clean and validate datasets
-- Merge multiple datasets into a unified dataset
-- Perform Exploratory Data Analysis (EDA)
-- Create meaningful visualizations
-- Generate business insights for decision-making
+* Clean and preprocess the sales dataset.
+* Perform Exploratory Data Analysis (EDA).
+* Visualize key sales metrics.
+* Identify top-performing pizzas and categories.
+* Analyze revenue trends and order patterns.
+* Derive actionable business insights.
 
- 🗂 Dataset Information
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-The analysis uses three CSV files:
+📂 Dataset
 
-| Dataset | Description |
-|----------|-------------|
-| `order_details.csv` | Contains order IDs, pizza IDs, and quantities ordered |
-| `pizzas.csv` | Contains pizza sizes, prices, and pizza type IDs |
-| `pizza_types.csv` | Contains pizza names, categories, and ingredients |
+The dataset contains Domino's Pizza sales information, including:
 
-After preprocessing and merging, the final dataset contains:
+* Order Details
+* Pizza Name
+* Pizza Category
+* Pizza Size
+* Quantity Ordered
+* Price
+* Order Date & Time
 
-- **48,620 Rows**
-- **10 Columns**
+Source: Maven Analytics – Pizza Sales Dataset
 
-🛠 Technologies Used
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Visual Studio Code
-- Git & GitHub
+🛠️ Technologies Used
 
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook / VS Code
+* Git & GitHub
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📊 Exploratory Data Analysis
 
-The following business questions were explored:
+The project includes:
 
-- Which pizzas are ordered the most?
-- Which pizza size is most popular?
-- Which pizza category sells the most?
-- Which category generates the highest revenue?
-- Which pizzas generate the highest revenue?
-- What is the correlation between numerical variables?
-- How is the quantity sold distributed?
-- How is revenue distributed?
+* Dataset Overview
+* Data Cleaning
+* Missing Value Analysis
+* Descriptive Statistics
+* Correlation Analysis
+* Revenue Analysis
+* Sales Trend Analysis
+* Category-wise Revenue
+* Top Selling Pizzas
+* Quantity Distribution
+* Revenue Distribution
+* Business Insights
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📈 Visualizations
 
-This project includes the following visualizations:
+The analysis includes visualizations such as:
 
-- Top 10 Best Selling Pizzas
-- Quantity Sold by Pizza Size
-- Total Quantity Sold by Pizza Category
-- Revenue by Pizza Category
-- Top 10 Revenue Generating Pizzas
-- Correlation Heatmap
-- Quantity Distribution Histogram
-- Revenue Distribution Box Plot
+* Revenue by Pizza Category
+* Top 10 Pizzas by Revenue
+* Correlation Heatmap
+* Quantity Distribution Histogram
+* Revenue Distribution Box Plot
 
-All generated graphs are available in the **graphs/** folder.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-📌 Key Business Insights
+📁 Project Structure
 
-- Large (L) pizzas are the most frequently ordered size.
-- Classic pizzas recorded the highest sales quantity.
-- Classic pizzas also generated the highest overall revenue.
-- Thai Chicken Pizza generated the highest revenue among all pizzas.
-- Revenue has a strong positive correlation with price.
-- Most customers purchase only one pizza per order.
-- Premium pizzas contribute significantly to overall revenue.
-
-
-📂 Project Structure
 
 Dominos-Pizza-Sales-Analysis/
 │
-├── Dataset/
+├── data/
+│   ├── orders.csv
 │   ├── order_details.csv
 │   ├── pizzas.csv
 │   └── pizza_types.csv
 │
-├── graphs/
-│   ├── top_10_best_selling_pizzas.png
-│   ├── pizza_size_sales.png
-│   ├── category_sales.png
-│   ├── revenue_by_category.png
-│   ├── top_10_revenue_pizzas.png
+├── images/
+│   ├── category_revenue.png
+│   ├── top10_pizzas.png
 │   ├── correlation_heatmap.png
 │   ├── quantity_distribution.png
-│   └── revenue_distribution_boxplot.png
+│   └── revenue_distribution.png
 │
-├── report/
-│   └── Domino_Pizza_Sales_Report.pdf
-│
-├── main.py
+├── notebook.ipynb
 ├── requirements.txt
-└── README.md
+├── README.md
+└── LICENSE
 
 
-▶️ How to Run the Project
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Clone the repository
+🚀 Getting Started
+
+#Clone the Repository
 
 ```bash
 git clone https://github.com/Bhoomikapatle412/Dominos-Pizza-Sales-Analysis.git
 ```
 
-### Navigate to the project folder
+# Navigate to the Project
 
 ```bash
 cd Dominos-Pizza-Sales-Analysis
 ```
 
-### Install the required libraries
+# Install Dependencies
 
 ```bash
-pip install pandas numpy matplotlib seaborn
+pip install -r requirements.txt
 ```
 
-### Run the project
+# Run the Project
 
-```bash
-python main.py
-```
+Open the Jupyter Notebook or Python script and execute the analysis.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-📷 Sample Output
+📊 Key Insights
 
-The project generates multiple visualizations and business reports, including:
+* Classic pizzas generated the highest overall revenue.
+* A small number of pizza varieties contributed significantly to total sales.
+* Sales varied across different pizza sizes and categories.
+* Visualizations highlighted customer purchasing patterns and revenue distribution.
+* Business insights can support pricing, inventory planning, and promotional strategies.
 
-- Sales trends by pizza type
-- Revenue analysis
-- Category performance
-- Customer ordering behavior
-- Correlation analysis
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
----
+📌 Future Improvements
 
-🚀 Future Enhancements
+* Build an interactive Power BI dashboard.
+* Develop a Streamlit web application.
+* Add time-series sales forecasting.
+* Create an SQL version of the analysis.
+* Deploy the project online.
 
-- Develop an interactive Power BI dashboard
-- Build a Tableau dashboard
-- Predict future sales using Machine Learning
-- Perform customer segmentation
-- Analyze seasonal sales trends
-- Deploy the project using Streamlit
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
----
-## 🚀 Future Improvements
+🤝 Contributing
 
-### Short-Term Goals
-- Add more business insights.
-- Improve visualizations.
-- Optimize the analysis code.
+Contributions, suggestions, and improvements are welcome. Feel free to fork the repository and submit a pull request.
 
-### Long-Term Goals
-- Build an interactive Streamlit dashboard.
-- Develop a pizza sales prediction model.
-- Deploy the project as a web application.
-- Connect the project to a real-time database.
-  
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-👩‍💻 Author
+📬 Contact
 
 Bhoomika Patle
-
-Computer Science Engineering (AI & ML)
-
 GitHub: https://github.com/Bhoomikapatle412
 
+---
 
-⭐ If you found this project useful, consider giving it a star!
+## ⭐ If you found this project useful
+
+Please consider giving the repository a ⭐ to support my work and future projects.
+
