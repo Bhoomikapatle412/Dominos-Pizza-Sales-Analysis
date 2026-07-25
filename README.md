@@ -138,13 +138,55 @@ Open the Jupyter Notebook or Python script and execute the analysis.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-📌 Future Improvements
+## 🚀 Future Improvements
 
-* Build an interactive Power BI dashboard.
-* Develop a Streamlit web application.
-* Add time-series sales forecasting.
-* Create an SQL version of the analysis.
-* Deploy the project online.
+Although this project provides valuable insights into Domino's Pizza sales performance, several enhancements can make it even more powerful and interactive.
+
+### 📊 Dashboard Development
+- Build an interactive dashboard using Streamlit or Power BI.
+- Add dynamic filters for pizza category, size, date, and revenue.
+
+### 📈 Advanced Analytics
+- Perform time-series analysis to identify seasonal sales trends.
+- Forecast future sales using machine learning models.
+- Analyze customer purchasing patterns and order frequency.
+
+### 🗺️ Geographical Analysis
+- Visualize sales across different regions using interactive maps.
+- Compare regional performance to identify high-demand areas.
+
+### 🤖 Machine Learning
+- Predict daily or monthly sales using regression models.
+- Recommend inventory levels based on historical demand.
+- Identify best-selling and low-performing pizzas automatically.
+
+### 📱 User Experience
+- Create a web application for exploring the analysis interactively.
+- Allow users to download reports and visualizations.
+- Add responsive charts for desktop and mobile devices.
+
+### ⚙️ Project Enhancements
+- Automate data cleaning and preprocessing.
+- Support larger datasets with optimized data processing.
+- Integrate real-time sales data from external sources.
+
+### 🔍 Business Insights
+- Analyze promotional campaign effectiveness.
+- Study customer preferences by pizza category and size.
+- Recommend pricing strategies to maximize revenue.
+
+---
+
+## 🌟 Project Roadmap
+
+- ✅ Data Collection
+- ✅ Data Cleaning & Preprocessing
+- ✅ Exploratory Data Analysis (EDA)
+- ✅ Business Insights
+- ⏳ Interactive Dashboard
+- ⏳ Sales Forecasting
+- ⏳ Recommendation System
+- ⏳ Real-Time Data Integration
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
